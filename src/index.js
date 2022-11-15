@@ -95,9 +95,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Ex 1.0, Ex 1.1
 
-// root.render(
-//   <MyComponent />
-// );
+ //root.render(
+   //<MyComponent />
+ //);
 
 // Ex 1.2
 
@@ -157,11 +157,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Ex 4.1
 
- const element = (
-   <div style={{textAlign: 'center', fontSize: '15px', backgroundColor: '#d0f0c0'}}>Green is the prime color of the world</div>
- );
+ //const element = (
+   //<div style={{textAlign: 'center', fontSize: '15px', backgroundColor: '#d0f0c0'}}>Green is the prime color of the world</div>
+ //);
 
- ReactDOM.render(element, document.getElementById('root'));
+ ReactDOM.render('element',document.getElementById('root'));
 
 // Ex 4.2
 //root.render(
