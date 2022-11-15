@@ -1,6 +1,6 @@
-import * as React from 'react';
+import * as React from "react";
 
-class Mylist extends React.Component {
+class MyList extends React.Component {
     render() {
         const { items } = this.props;
 
@@ -10,8 +10,8 @@ class Mylist extends React.Component {
                     <li key={i}>{i}</li>
                 ))}
             </ul>
-        );
+        )
     }
 }
 
-export default Mylist;
+export default MyList
